@@ -2,7 +2,7 @@ a, b = input().split()
 a = int(a)
 b = int(b)
 
-def integer(a, b):
+def PrintOddNumber(a, b):
     if a > b:
         return
     if a % 2 == 0:
@@ -10,6 +10,6 @@ def integer(a, b):
     else:
         print(a, end=' ')
         a += 2
-    integer(a, b)
+    PrintOddNumber(a, b)
 
-integer(a, b)
+PrintOddNumber(a, b)
